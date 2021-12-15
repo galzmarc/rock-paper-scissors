@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+	href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet"
+	/>
+</head>
+<body>
+	<div class="header">
+		<h2 class="title">ROCK PAPER SCISSORS</h2>
+	</div>
+	<div class="main">
+		<p>Your fight against the machines begins now.</p>
+		<p>Win 3 rounds to save humanity.</p>
+		<p>Choose your weapon:</p>
+		<div class="buttons">
+			<button class="button" id="rock">✊</button>
+			<button class="button" id="paper">✋</button>
+			<button class="button" id="scissors">✌️</button>
+		</div>
+	</div>
+	<div class="messages" id="messages"></div>
+	<div class="footer">
+		<div class="scores" id="scores">
+			<p>SCORE</p>
+		</div>
+	</div>
+	<div class="modal" id="endgameModal">
+      <p class="endgameMsg" id="endgameMsg"></p>
+      <button class="btn-restart" id="restartBtn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
