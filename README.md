@@ -1,5 +1,5 @@
 # rock-paper-scissors
-Part of The Odin Project
+Part of <a href="https://www.theodinproject.com">The Odin Project</a> Foundations path.
 
 Simple implementation of "Rock paper scissors" game; created with HTML, CSS and JavaScript.
 
